@@ -1,0 +1,70 @@
+// 全局 flex 布局类
+.flex {
+  display: flex;
+  &-1 {
+    flex: 1;
+  }
+  &-col {
+    flex-direction: column;
+  }
+  &-center {
+    align-items: center;
+    justify-content: center;
+  }
+  &-between {
+    justify-content: space-between;
+  }
+  &-align-center {
+    align-items: center;
+  }
+  &-justify-center {
+    justify-content: center;
+  }
+}
+
+// 全局间距类
+.m {
+  &t {
+    &-1 { margin-top: 0.25rem; }
+    &-2 { margin-top: 0.5rem; }
+    &-3 { margin-top: 0.75rem; }
+    &-4 { margin-top: 1rem; }
+  }
+  &b {
+    &-1 { margin-bottom: 0.25rem; }
+    &-2 { margin-bottom: 0.5rem; }
+    &-3 { margin-bottom: 0.75rem; }
+    &-4 { margin-bottom: 1rem; }
+  }
+}
+
+// 全局分割线
+.divider {
+  height: 1px;
+  background: rgba(0, 0, 0, 0.05);
+  margin: 0.5rem 0;
+}
+
+// 全局文本样式
+.text {
+  &-primary { color: #333; }
+  &-secondary { color: #666; }
+  &-hint { color: #999; }
+  &-sm { font-size: 0.75rem; }
+  &-md { font-size: 0.875rem; }
+  &-lg { font-size: 1rem; }
+}
+.color-black{
+    color: #333;
+}
+.color-gray{
+    color: #666;
+}
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: #fff;
+}
