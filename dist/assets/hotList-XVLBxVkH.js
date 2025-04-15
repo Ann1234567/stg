@@ -1,0 +1,1 @@
+import{s as t}from"./request-C8QZ-v7H.js";function r(e){return t({url:"/stg/news/listPage",method:"get",params:e})}function g(e){return t({url:"/stg/news/getInfo/"+e,method:"get"})}export{g as a,r as g};

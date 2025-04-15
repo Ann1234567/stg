@@ -1,0 +1,1 @@
+import{s as e}from"./request-C8QZ-v7H.js";function r(t){return e({url:"/stg/news/listSlideshow",method:"get",params:t})}function i(t){return e({url:`/stg/dictData/listDict/${t}`,method:"get"})}function a(t){return e({url:"/stg/user/listPageByStallName",method:"get",params:t})}export{a,i as b,r as g};

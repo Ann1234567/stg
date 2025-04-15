@@ -1,0 +1,1 @@
+import{s as e}from"./request-C8QZ-v7H.js";function s(t){return e({url:`/stg/user/getInfo/${t}`,method:"get"})}function r(t){return e({url:"/stg/supervise/submit",method:"post",data:t})}function n(t){return e({url:"/stg/auth/login",method:"post",data:t})}export{s as g,n as l,r as s};

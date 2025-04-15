@@ -1,0 +1,1 @@
+import{s as t}from"./request-C8QZ-v7H.js";function r(e){return t({url:"/stg/file/upload",method:"post",data:e})}function s(e){return t({url:"/stg/file/uploads",method:"post",data:e})}function u(){return t({url:"/stg/user/getUserInfo",method:"get"})}export{s as a,u as g,r as u};
